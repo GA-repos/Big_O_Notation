@@ -8,7 +8,7 @@
   * O(n<sup>2</sup>)
   * O(log n)
 
-As we work through different examples today, try to think of a ruby or javascript implementation that applies to one of them and write it down somewhere.
+As we work through different examples today, try to think of a python or javascript implementation that applies to one of them and write it down somewhere.
 
 ---
 
@@ -130,7 +130,7 @@ How many different routes are there when we have to visit 10 different towns?
 
 ## Big O in action!
 
-Write a ruby OR javascript function in repl.it for each of the following things, and say what you think their big O notation (aka their 'time complexity' would be):
+Write a python OR javascript function in repl.it or a local file for each of the following things, and say what you think their big O notation (aka their 'time complexity' would be):
 
 * A function that logs the first item in an array
 
