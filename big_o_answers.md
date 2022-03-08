@@ -153,7 +153,7 @@ function countUpTo(n) {
 ```python
 def count_up_to(n):
    result = 0
-   for i in range(0,n+1):
+   for i in range(n+1):
       result+=i 
    print(result)     
    return result
