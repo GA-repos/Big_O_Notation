@@ -133,6 +133,8 @@ Okay, what is the maximum number of guesses it should take if we play the game f
 
 ---
 
+![](https://co-enzyme.fr/wp-content/uploads/2020/06/tsp.jpg)
+
 Okay, one last bit of fun before we really get to work...
 
 A traveling salesman needs to travel around a bunch of interconnected towns. Given towns A, B, and C, work with a partner and figure out the different ways to go through each and every town.
@@ -143,6 +145,8 @@ Now add another town into the mix, so we have towns A, B, C, and D, and do the s
 What would happen if we added in a fifth town? Or a sixth? How many possibilites would there be?
 
 How many different routes are there when we have to visit 10 different towns?
+
+[Tavelling Salesman Wiki](https://en.wikipedia.org/wiki/Travelling_salesman_problem)
 
 ## Big O in action!
 
