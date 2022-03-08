@@ -198,13 +198,6 @@ If you want a deeper understanding of big O notation, check out [this course](ht
 
 Here is a [Big O Cheatsheet](http://bigocheatsheet.com/).
 
-You can also review these articles on redis:
-
-- [del](http://redis.io/commands/del)
-- [append](http://redis.io/commands/append)
-- [get](http://redis.io/commands/get)
-- [lrange](http://redis.io/commands/LRANGE)
-
 *MANY job interviews will include computer science questions, so this is worth spending some time learning!*
 
 ## Conclusion
