@@ -127,15 +127,12 @@ Big O Notation: O(n<sup>2</sup>)
 #### ...But they'd only give you little bucks `$`
 
 ```python
-def count_up_to(n)
-    result = 0
-    (1..n).each do |outer_num|
-        (outer_num..n).each do |inner_num|
-            result += 1
-        end
-    end
-    result
-end
+def count_up_to(n):
+   result = 0
+   for i in range(0,n+1):
+      result+=i 
+   print(result)     
+   return result
 ```
 
 ```javascript
