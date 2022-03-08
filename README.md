@@ -109,17 +109,16 @@ Below is a binary search handled with recursion
 
 ```javascript
 let binarySearch = (arr, n) =>{
-		  if(arr.length <= 0) return -1
-		  let mid = Math.floor(arr.length/2)
-		  if(arr[mid] === n){
-				  return arr[mid]
-		  }else if(arr[mid] > n){
-				  return binarySearch(arr.slice(0, mid) ,n)
-		  }else if(arr[mid] < n){
-				  return binarySearch(arr.slice(mid+1, arr.length) ,n)
-		}
+	if(arr.length <= 0) return -1
+	let mid = Math.floor(arr.length/2)
+	if(arr[mid] === n){
+		return arr[mid]
+	}else if(arr[mid] > n){
+		return binarySearch(arr.slice(0, mid) ,n)
+	}else if(arr[mid] < n){
+		return binarySearch(arr.slice(mid+1, arr.length) ,n)
+	}
 }
-
 ```
 
 ### Okay, now let's play the big O game with your neighbor!
