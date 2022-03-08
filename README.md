@@ -105,6 +105,23 @@ A common example of O(log n) is binary search, which is the iterative halving of
 
 You can read a more in-depth example of O(log n) in [this article](https://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation/).
 
+Below is a binary search handled with recursion
+
+```javascript
+let binarySearch = (arr, n) =>{
+		  if(arr.length <= 0) return -1
+		  let mid = Math.floor(arr.length/2)
+		  if(arr[mid] === n){
+				  return arr[mid]
+		  }else if(arr[mid] > n){
+				  return binarySearch(arr.slice(0, mid) ,n)
+		  }else if(arr[mid] < n){
+				  return binarySearch(arr.slice(mid+1, arr.length) ,n)
+		}
+}
+
+```
+
 ### Okay, now let's play the big O game with your neighbor!
 
 One person silently picks a number between 1 and 100 (inclusive). The other person tries to guess the number. For each guess, the person who originally thought of the number tells the guesser if the number is LOWER or HIGHER. Keep going until the guesser correctly guesses the number.
