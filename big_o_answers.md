@@ -21,7 +21,6 @@ Big O Notation: O(1)
 ```python
 def log_last(arr):
 	print(arr[-1])
-end
 ```
 
 ```javascript
