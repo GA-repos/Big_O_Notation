@@ -1,6 +1,6 @@
 # Big O in Action! Answers
 
-Your answers might be different than these, but here are some answers for reference, in both ruby and javascript.
+Your answers might be different than these, but here are some answers for reference, in both python and javascript.
 
 ## log the first item in an array
 ```python
@@ -125,14 +125,6 @@ Big O Notation: O(n<sup>2</sup>)
 
 #### ...But they'd only give you little bucks `$`
 
-```python
-def count_up_to(n):
-   result = 0
-   for i in range(n+1):
-      result+=i 
-   print(result)     
-   return result
-```
 
 ```javascript
 function countUpTo(n) {
